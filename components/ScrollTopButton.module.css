@@ -1,0 +1,28 @@
+.container {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 99px;
+  background-color: #f0f0f0; /* Set your background color here */
+  color: #333; /* Set your text color here */
+  transition: background-color 0.3s ease-in-out;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
+
+.container.visible {
+  background-color: #92320c; /* Set your hover background color here */
+  color: #fff; /* Set your hover text color here */
+  display: block;
+}
+
+.hidden {
+  display: hidden;
+}
+
+.icon{
+    font-size: large;
+    font-weight:900;
+}
